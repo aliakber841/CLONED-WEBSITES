@@ -1,0 +1,1041 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: 'Calibri';
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.main{
+    position: relative;
+    overflow: hidden;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+}
+.nav>img{
+    height: 52px;
+    padding-top: 13px;  
+    padding-bottom: 13px;
+    padding-left: 60px;
+}
+.nav-part2>img{
+    height: 30px;
+}
+.nav-part2>h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav-part2>h4{
+    padding: 5px 20px;
+    font-weight: 400;
+}
+.nav-part2{
+    padding: 13px 25px;
+    display: flex;
+}
+.nav-part2>h4 span{
+    font-size: 12px;
+}
+.nav-part3{
+    display: flex;
+   align-items: end;
+   justify-content: center;
+   flex-direction: row;
+   position: absolute;
+   right: 5%;
+}
+.nav-part3>h4{
+    padding: 5px 20px;
+    font-weight: 400;
+}
+.nav-part3>h4 span{
+    font-size: 12px;
+}
+.nav-part3>.img1{
+    height: 17px;
+   margin-left: 20px;
+   margin-bottom: 6px;
+}
+.nav-part3>.img2{
+    height: 30px;
+   margin-left: 30px;
+}
+
+.page1{
+    min-height: 105vh;
+    width: 100vw;
+   display: flex;
+   position: relative;
+}
+.left-page1{
+    height: 90vh;
+    width: 48%;
+}
+.left-page1>img{
+   height: 100%;
+   padding-top: 50px ;
+}
+.right-page1{
+    height: 70vh;
+    width: 52%;
+    background-color: #C5E0FB;
+}
+.right-page1>h1{
+  position: absolute;
+  top:26%;
+ font-size: 2.6vw;
+ font-weight: 500;
+ background-color: #C5E0FB;  
+}
+.right-page1>h2{
+    position: absolute;
+    top:34%;
+    line-height: 1;
+    width: 690px;
+   font-size: 2.4vw;
+   font-weight: 500;
+    background-color: #C5E0FB;   
+  }
+  .button1>button{
+    position: absolute;
+    top:54%;
+    height: 47px;
+    width: 310px;
+    background-color: rgb(15, 123, 206); 
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 40px;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+  }
+  .button2>button{
+    position: absolute;
+    top:54%;
+    right: 9%;
+    height: 47px;
+    width: 310px;
+    margin-left: 20px;
+    background-color: rgb(15, 123, 206); 
+    color: #fff;
+    font-weight: 500;
+    border-radius: 3px;
+    font-size: 19px;
+    border: none;
+    }
+  
+    .button3>button{
+        position: absolute;
+        top:62%;
+        height: 47px;
+        width: 310px;
+        background-color: rgb(15, 123, 206); 
+        color: #fff;
+        border-radius: 3px;
+        font-size: 20px;
+        border: none;
+        font-weight: 500;
+      }
+      .button4>button{
+        position: absolute;
+        top:62%;
+        right: 9%;
+        height: 47px;
+        width: 310px;
+        background-color: rgb(15, 123, 206); 
+        color: #fff;
+        font-weight: 500;
+        border-radius: 3px;
+        font-size: 19px;
+        border: none;
+        }
+        .right-page1 button:hover{
+            cursor: pointer;
+            background-color: #0067B8;
+        }
+        .page1-bottom{
+            height: 50px;
+            width: 100%;
+            position: absolute ;
+            bottom: 5%;
+        }
+        .page1-bottom>h1{
+          text-align: center;
+          font-weight: 600;
+        }
+
+        .page2{
+            min-height: 124vh;
+            width: 100vw;  
+            display: flex; 
+            position: relative; 
+        }
+        .page2-left{
+            height: 107vh;
+            width: 45%;
+            padding-left: 70px;
+            margin-top: 20px;
+            border-right: 2px solid #dadada;
+            position: relative;
+        }
+        .page2-left>h2{
+            font-size: 35px;
+            font-weight: 600;
+        }
+        .page2-left>h4{
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        .page2-left>h5{
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            color: #0067B8;
+        }
+        .page2-left>img{
+            height: 76%;
+            width: 87%;
+            
+        }
+        .page2-right{
+            height: 50%;
+            width: 55%;
+            padding-left: 60px;
+            margin-top: 20px;
+            position: relative;
+        }
+        .page2-right-container{
+            height: 57vh;
+            width: 88%;
+            border-bottom: 2px solid #dadada;
+        }
+        .page2-right-container>h4{
+            font-size: 20px;
+            width: 22vw;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        .page2-right-container>h5{
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            color: #0067B8;
+        }
+        .page2-right-container>img{
+            position: absolute;
+            height: 39%;
+            right: 10%;
+            top:0.4%
+        }
+
+        .page2-right-container2{
+            height: 57vh;
+            width: 88%;
+        }
+        .page2-right-container2>h4{
+            font-size: 20px;
+            width: 22vw;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        .page2-right-container2>h5{
+            font-size: 20px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 25px;
+            color: #0067B8;
+        }
+        .page2-right-container2>img{
+            position: absolute;
+            height: 39%;
+            right: 10%;
+            top:52%
+        }
+        .page2-right-container2>h1{
+            margin-top: 20px;
+        }
+        .page3{
+            height: 80vh;
+            width: 100%;
+            position: relative;
+        }
+        .page3>.gray-box{
+            background-color: #F4F3F5;
+            height: 230px;
+            width: 80%;
+            position: absolute;
+            left: 10%;
+            display: flex;
+        }
+        .page3>.gray-box>img{
+            height: 70px;
+            background-color: #F4F3F5;
+            position: absolute;
+            left: 5%;
+            top:23%
+        }
+        .page3>.gray-box>h2{
+            position: absolute;
+            font-size: 28px;
+            background-color: #F4F3F5;
+            top:23%;
+            left: 14%;
+        }
+        .gray-box-bottom>h4{
+            position: absolute;
+            bottom: 25%;
+            font-size: 20px;
+            font-weight: 600;
+            color: #0067B8;
+            left: 14%;
+            background-color: #F4F3F5;
+        }
+        .image-container{
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            top:45%;
+            left:20%
+        }
+        .page3-text{
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            top:75%;
+            left:3%
+        }
+        .page3-text>h3{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 500;
+        }
+        .page4{
+            height: 120vh;
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+        .page4-left{
+            height: 88%;
+            width: 40%;
+        }
+        .page4-right{
+            height: 88%;
+            width: 60%;
+            background-size: cover;
+            background-position: center;
+           position: relative;
+           display: none;
+        }
+        .page4-word-container{
+            padding: 25px 0px;
+            position: absolute;
+            left:6%;
+            display: flex;
+            height: 110px; 
+            width: 28vw;
+            border-top: 2px solid #dadada;   
+        }
+        .page4-word-container:hover,
+        .page4-excel-container:hover,
+        .page4-powerpoint-container:hover,
+        .page4-teams-container:hover,
+        .page4-outlook-container:hover,
+        .page4-onedrive-container:hover,
+        .page4-more-container:hover{
+            height: 90px; 
+            width: 28vw;
+            cursor: pointer;
+            box-shadow: 0px 4px 9px rgb(214, 209, 209);
+        }
+        .page4-word-container>img,
+        .page4-excel-container>img,
+        .page4-powerpoint-container>img,
+        .page4-teams-container>img,
+        .page4-outlook-container>img,
+        .page4-onedrive-container>img,
+        .page4-more-container>img{
+            height: 40px;
+            margin-right: 10px;
+        }
+        .page4-word-container>h2,
+        .page4-excel-container>h2,
+        .page4-powerpoint-container>h2,
+        .page4-teams-container>h2,
+        .page4-outlook-container>h2,
+        .page4-onedrive-container>h2,
+        .page4-more-container>h2{
+         height: 30px;
+         margin-right: 20px;
+         margin-left: 25px;
+        }
+        .page4-word-container>h3,
+        .page4-excel-container>h3,
+        .page4-powerpoint-container>h3,
+        .page4-teams-container>h3,
+        .page4-outlook-container>h3,
+        .page4-onedrive-container>h3,
+        .page4-more-container>h3{
+            font-size: 21px;
+            font-weight: 600;
+            margin-top: 6px;
+        }
+
+        .page4-excel-container{
+            padding: 30px 0px;
+            position: absolute;
+            top:12%;
+            left:6%;
+            display: flex;       
+            height: 110px; 
+            width: 28vw;
+            border-top: 2px solid #dadada;   
+        }
+
+        .page4-powerpoint-container{
+            padding: 25px 0px;
+            position: absolute;
+            top:24%;
+            left:6%;
+            display: flex;
+            height: 110px; 
+            width: 28vw;
+            border-top: 2px solid #dadada;   
+        }
+        .page4-teams-container{
+            padding: 25px 0px;
+            position: absolute;
+            top:36%;
+            left:6%;
+            display: flex;
+            height: 110px; 
+            width: 28vw;
+            border-top: 2px solid #dadada;   
+        }
+        .page4-outlook-container{
+            padding: 25px 0px;
+            position: absolute;
+            top:48%;
+            left:6%;
+            display: flex;
+            height: 110px; 
+            width: 28vw;
+            border-top: 2px solid #dadada;
+        }
+        .page4-onedrive-container{
+            padding: 25px 0px;
+            position: absolute;
+            top:60%;
+            left:6%;
+            display: flex;
+            height: 110px; 
+            width: 28vw;
+            border-top: 2px solid #dadada;
+        }
+        .page4-more-container{
+            padding: 25px 0px;
+            position: absolute;
+            top:72%;
+            left:6%;
+            display: flex;
+            height: 110px; 
+            width: 28vw;
+            border-top: 2px solid #dadada;
+        }
+        .page4-bottom{
+            height: 100px;
+            width: 100%;
+        }
+        .page4-bottom>h2{
+            font-size: 40px;
+            text-align: center;
+        }
+        .page4-bottom>h4{
+            font-size: 20px;
+            font-weight: 400;
+            text-align: center;
+            margin-top: 3px;
+        }
+        .page5{
+            height: 110vh;
+            width: 100%;
+            position: relative;
+        }
+        .page5-image-container{
+            margin-top: 50px;
+            height: 60%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .page5-image-container>img{
+            height: 75%;
+            border-radius: 3px;
+           
+        }
+        #ist-img{
+            margin-left: 70px;
+        }
+        #second-img{
+            margin-left: 30px;
+        }
+        #third-img{
+            margin-left: 30px;
+            margin-right: 70px;
+        }
+        .personal-card-container{
+            position: relative;
+            height: 43%;
+            width: 25%;
+            background-color: #D83B01;
+            position: absolute;
+            left:6%;
+            bottom:13%
+        }
+        .personal-card-container>h2{
+            font-size: 25px;
+            color: #fff;
+            text-align: center;
+            padding:25px 20px;
+            background-color: #db440e;
+            box-shadow:  0px 4px 10px  #c43603;
+            z-index: 10;
+        }
+        .personal-card-container>button{
+            padding:10px 80px;
+            margin-left: 50px;
+            margin-top: 30px;
+            font-size: 22px;
+            white-space: nowrap;
+            border: none;
+            border-radius: 3px;
+            color: #BB3301;
+            font-weight: 600;
+        }
+        .personal-card-container>h3{
+            margin-top: 20px;
+            color: white;
+            background-color: #D83B01;
+            text-align: center;
+            font-weight: 500;
+        }
+        .personal-card-container button:hover,
+        .work-card-container button:hover,
+        .education-card-container button:hover{
+            cursor: pointer;
+            background-color: #E5E5E5;
+        }
+        .work-card-container{
+            position: relative;
+            height: 43%;
+            width: 25%;
+            background-color: #0078D4;
+            position: absolute;
+            left:37.3%;
+            bottom:13%
+        }
+        .work-card-container>h2{
+            font-size: 25px;
+            color: #fff;
+            text-align: center;
+            padding:25px 20px;
+            background-color: #0078D4;
+            box-shadow:  0px 4px 10px  #106eb6;  
+        }
+        .work-card-container>.button1{
+            padding:10px 30px;
+            margin-left: 50px;
+            margin-top: 30px;
+            font-size: 20px;
+            white-space: nowrap;
+            border: none;
+            border-radius: 3px;
+            color: #0078D4;
+            font-weight: 600;
+        }
+        .work-card-container>h3{
+            margin-top: 20px;
+            color: white;
+            background-color: #0078D4;
+            text-align: center;
+            font-weight: 500;
+        }
+        .work-card-container>.button2{
+            padding:10px 26px;
+            margin-left: 50px;
+            margin-top: 20px;
+            font-size: 20px;
+            white-space: nowrap;
+            border: none;
+            border-radius: 3px;
+            color: #0078D4;
+            font-weight: 600;
+        }
+
+        .education-card-container{
+            position: relative;
+            height: 43%;
+            width: 25%;
+            background-color: #7719AA;
+            position: absolute;
+            left:68.8%;
+            bottom:13%
+        }
+        .education-card-container>h2{
+            font-size: 25px;
+            color: #fff;
+            text-align: center;
+            padding:25px 20px;
+            background-color: #7719AA;
+            box-shadow:  0px 4px 10px  #58147c;
+            z-index: 10;
+        }
+        .education-card-container>button{
+            padding:10px 80px;
+            margin-left: 50px;
+            margin-top: 30px;
+            font-size: 22px;
+            white-space: nowrap;
+            border: none;
+            border-radius: 3px;
+            color: #7719AA;
+            font-weight: 600;
+        }
+        .education-card-container>h3{
+            margin-top: 20px;
+            color: white;
+            background-color: #7719AA;
+            text-align: center;
+            font-weight: 500;
+        }
+        .page6{
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+        }
+        .page6-top>h2{
+            text-align: center;
+            font-size: 35px;
+        }
+        .page6-bottom{
+            height: 85%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .page6-left{
+            height: 100%;
+            width: 50%;
+        }
+        .page6-right{
+            height: 100%;
+            width: 50%;
+        }
+        .page6-left>h1{
+            font-weight: 600;
+            position: absolute;
+            left:10%;
+            bottom: 55%;
+        }
+        .page6-left>h4{
+            font-weight: 500;
+            position: absolute;
+            left:10%;
+            bottom: 40%;
+            font-size: 20px;
+        }
+        .page6-left>h4>span{
+            color: #0078D4;
+            border-bottom: 2px solid #0078D4;
+            padding-left: 5px;
+        }
+        .page6-right>img{
+         position: absolute;
+         bottom: 10%;
+         right: 6%;
+        }
+
+        .page7{
+            height: 120vh;
+            width: 100vw;
+            position: relative;
+        }
+        .page7-image-container{
+          height: 90%;
+          width: 100%;
+         z-index: 10;
+         margin-left: 70px;
+         margin-right: 70px;
+        }
+        .page7-image-container>img{
+            height: 98%;
+           width: 90%;
+            object-fit: cover;
+            object-position: center;
+            position: relative;
+            position: absolute;
+        }
+
+        .page8{
+            height: 90vh;
+            width: 100vw;
+            position: relative;
+        }
+        .page8-top>h1{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        .page8-top>h2{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+        .page8-top>h2>span{
+            color: #0078D4;
+            border-bottom: 2px solid #0078D4;
+        }
+        .page8-bottom{
+            height: 85%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .page8-left{
+            height: 100%;
+            width: 50%;
+            position: relative;
+        }
+        .page8-left>h1{
+            position: absolute;
+            bottom: 60%;
+           left: 8%;
+           font-size: 28px;
+        }
+        .page8-left>h4{
+            position: absolute;
+            bottom: 40%;
+           left: 8%;
+           font-size: 20px;
+           font-weight: 500;
+        }
+        .page8-left>h4>span{
+            color: #0078D4;
+            border-bottom: 2px solid #0078D4;
+        }
+        .page8-right{
+            height: 100%;
+            width: 50%;
+            position: relative;
+        }
+        .page8-right>img{
+            height: 70%;
+            position: absolute;
+            bottom: 20%;
+            right: 6%;
+        }
+        .page9{
+            height: 55vh;
+            width: 100vw;
+            position: relative;
+        }
+        .page9-top>h1{
+            text-align: center;
+            font-size: 36px;
+        }
+        .page9-bottom{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:70px;
+            margin-top: 100px;
+        }
+        .page9-bottom>img{
+            height: 150px;
+        }
+        .page10{
+            height: 90vh;
+            width: 100vw;
+            position: relative;
+        }
+        .simens-container{
+            height: 56%;
+            width: 43%;
+            opacity: 0;
+            position: absolute;
+            left:16%;
+            top:14%;
+            z-index: 3;
+        }
+        .toyota-container,
+        .academy-container,
+        .zurich-container{
+            height: 54%;
+            width: 43%;
+            opacity: 0;
+            position: absolute;
+            left:16%;
+            top:14%;
+            z-index: 4;
+        }
+        .simens-container>h1,
+        .toyota-container>h1,
+        .academy-container>h1,
+        .zurich-container>h1{
+            font-size: 33px;
+            padding-left: 50px;
+            padding-top: 55px;
+            font-weight: 500;
+        }
+        .simens-container>h4,
+        .toyota-container>h4,
+        .academy-container>h4,
+        .zurich-container>h4{
+            font-size: 20px;
+            padding-left: 50px;
+            padding-top: 20px;
+            font-weight: 500;
+        }
+        .simens-container>h3,
+        .toyota-container>h3,
+        .academy-container>h3,
+        .zurich-container>h3{
+            font-size: 21px;
+            padding-left: 50px;
+            padding-top: 20px;
+            font-weight: 600;
+        }
+        .simens-bottom,
+        .toyota-bottom,
+        .academy-bottom,
+        .zurich-bottom{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+        }
+        .simens-bottom>button,
+        .toyota-bottom>button,
+        .academy-bottom>button,
+        .zurich-bottom>button{
+            margin-left: 40px;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #0b79ce;
+            color: white;
+            font-size: 20px;
+        }
+        .simens-bottom>h3,
+        .toyota-bottom>h3,
+        .academy-bottom>h3,
+        .zurich-bottom>h3{
+            margin-left: 15px;
+            margin-top: 12px;
+            padding: 13px 35px;
+            color: #0b79ce;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        .page11{
+            height: 70vh;
+            width: 100vw;
+            position: relative;
+        }
+        .page11>.page11-top{
+            height: 47%;
+            width: 100%;
+            background-color: #F1F4FB;
+        }
+        .page11-top>h1{
+            background-color: #F1F4FB;
+            font-size: 35px;
+            position: absolute;
+            top:10%;
+            left: 35%;
+        }
+        .page11-button-container{
+            background-color: #F1F4FB;
+        }
+        .page11-button-container>button{
+            padding: 12px 24px;
+            font-size: 20px;
+            background-color: #0b79ce;
+            color: white;
+            border: none;
+            position: absolute;
+        }
+        .page11-button-container>.button1{  
+            left: 28%;
+            top:25%;
+        }
+        .page11-button-container>.button2{  
+            left: 44%;
+            top:25%;
+        }
+        .page11-button-container>.button3{
+            left: 54%;
+            top:25%;
+        }
+        .page11-button-container>.button4{
+            left: 65%;
+            top:25%;
+        }
+        .page11-button-container button{
+            cursor: pointer;
+            background-color: #0067B8;
+        }
+        .page11-bottom>h5{
+     font-size: 18px;
+     font-weight: 500;
+     margin-top: 75px;
+     margin-left: 60px;
+        }
+        .page11-bottom>h5>span{
+            color: #006CBE;
+            margin-right: 5px;
+        }
+        .page11-icons-container{
+            display: flex;
+        }
+        .page11-icons-container>h4{
+            margin-top: 90px;
+            margin-left: 60px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .page11-icons-container>.img1{
+            height: 40px;
+            position: absolute;
+           left: 16%;
+           bottom: 8%;
+        }
+        .page11-icons-container>.img2{
+            height: 40px;
+            position: absolute;
+           left: 20%;
+           bottom: 8%;
+        }
+        .page11-icons-container>.img3{
+            height: 40px;
+            position: absolute;
+           left: 24%;
+           bottom: 8%;
+        }
+        .page12{
+            height: 53vh;
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+        .page12-div1{
+            height: 100%;
+            width: 16%;
+            background-color: #F2F2F2;
+        }
+        .page12-div2{
+            height: 100%;
+            width: 16%;
+            background-color: #F2F2F2;
+        }
+       
+        .page12-div3{
+            height: 100%;
+            width: 16%;
+            background-color: #F2F2F2;
+        }
+        .page12-div4{
+            height: 100%;
+            width: 16%;
+            background-color: #F2F2F2;
+        }
+        .page12-div5{
+            height: 100%;
+            width: 16%;
+            background-color: #F2F2F2;
+        }
+        .page12-div6{
+            height: 100%;
+            width: 20%;
+            background-color: #F2F2F2;
+        }
+        .page12-container{
+            margin-left: 50px;
+            margin-top: 40px;
+            position: relative;
+        }
+        .page12-container>h2{
+            color: #78616F;
+            font-size: 20px;
+          background-color: #F2F2F2; 
+        }
+        .page12-container>h3{
+            color: #777375;
+            font-size: 1px;
+            background-color: #F2F2F2; 
+            font-size: 13px;
+            padding-top: 19px;
+            white-space: nowrap;
+        }
+        .page12-bottom{
+            height: 10vh;
+            width: 100vw;
+           position: relative;
+           background-color: #F2F2F2; 
+        }
+        .page12-bottom-left{
+            height: 100%;
+            width: 50%;
+            position: relative;
+            background-color: #F2F2F2;
+        }
+        .page12-bottom-left>img{
+          position: absolute;
+          bottom: 10%;
+          left: 7%;
+          height: 100px;
+        }
+        .page12-bottom-right{
+            height: 100%;
+            width: 50%;
+            position: absolute;
+            bottom: 20%;
+            left:50%;
+            background-color: #F2F2F2;
+            display: flex;
+        }
+        .page12-bottom-right>h3{
+            font-weight: 500;
+            font-size: 13px;
+            background-color: #F2F2F2;
+            padding-right: 40px;
+            padding-top: 40px;
+            color: #777375;
+        }
+        .page12-bottom-right>h4{
+            padding-left: 15px;
+            font-size: 13px;
+            background-color: #F2F2F2;
+            padding-top: 40px;
+            color: #918d8f;
+            padding-right: 40px;
+        }
+        
+       
