@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+}
+.left-col{
+   flex:1;
+}
+.right-col{
+    flex:3;
+}
+
+header{
+    background-color: #2e3e49;
+    color: white;
+    height: 65px;
+    display: flex;
+}
+.left{
+    flex:1;
+}
+.title{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+button{
+    background-color: #32bacf;
+    border: none;
+    color: white;
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #ffa000;
+    cursor: pointer;
+}
+.modal-overlay{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    max-width: 650px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.modal-header h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.row{
+    display: flex;
+}
+.input-group{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 15px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"]{
+    font-size: 16px;
+    height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+}
+.modal-footer{
+    display: flex;
+    justify-content: right;
+    margin: 5px 10px;
+}
+.close-btn{
+background-color: #999;
+}
+
+.contact-list{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.contact-list-item{
+display: flex;
+padding: 5px;
+}
+
+.media{
+flex: 1;
+}
+.two-letters{
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+flex: 3;
+display: flex;
+flex-direction: column;
+justify-self: center;
+padding-left: 10px;
+}
+.action{
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.title2{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.right-col-detail{
+    margin: 20px;
+}
+.right-col-detail .label{
+    font-size: 1.1em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.right-col-detail .data{
+    font-size: 1.2em;
+}
+.back-btn{
+    display: none;
+}
+
+@media only screen and (max-width:600px){
+    .right-col{
+        display: none;
+    }
+    .back-btn{
+        margin: 20px 0 0 20px;
+        display: block;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
