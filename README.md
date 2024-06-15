@@ -27,3 +27,6 @@ https://aliakber841.github.io/CLONED-WEBSITES/CYBERFICTION%20WEBSITE/cyberfictio
 
 (10) SIDDCUP FAMILY GOLF
 https://aliakber841.github.io/CLONED-WEBSITES/SIDDCUP%20FAMILY%20GOLF/golfwebsite.html
+
+(11) MAGMA WEBSITE
+https://aliakber841.github.io/CLONED-WEBSITES/MAGMA%20WEBSITE/magma.html
