@@ -12,6 +12,7 @@ html,body{
 .main{
     position: relative;
     overflow: hidden;
+    display: flexbox;
 }
 .nav{
     height: 60px;
@@ -101,11 +102,12 @@ html,body{
     position: absolute;
     top:34%;
     line-height: 1;
-    width: 690px;
+    width: 620px;
    font-size: 2.4vw;
    font-weight: 500;
     background-color: #C5E0FB;   
   }
+  
   .button1>button{
     position: absolute;
     top:54%;
@@ -122,7 +124,7 @@ html,body{
   .button2>button{
     position: absolute;
     top:54%;
-    right: 9%;
+    right: 5%;
     height: 47px;
     width: 310px;
     margin-left: 20px;
@@ -136,7 +138,7 @@ html,body{
   
     .button3>button{
         position: absolute;
-        top:62%;
+        top:63%;
         height: 47px;
         width: 310px;
         background-color: rgb(15, 123, 206); 
@@ -148,8 +150,8 @@ html,body{
       }
       .button4>button{
         position: absolute;
-        top:62%;
-        right: 9%;
+        top:63%;
+        right: 5%;
         height: 47px;
         width: 310px;
         background-color: rgb(15, 123, 206); 
@@ -175,13 +177,13 @@ html,body{
         }
 
         .page2{
-            min-height: 124vh;
+            min-height: 135vh;
             width: 100vw;  
             display: flex; 
             position: relative; 
         }
         .page2-left{
-            height: 107vh;
+            height: 115vh;
             width: 45%;
             padding-left: 70px;
             margin-top: 20px;
@@ -189,23 +191,23 @@ html,body{
             position: relative;
         }
         .page2-left>h2{
-            font-size: 35px;
+            font-size: 30px;
             font-weight: 600;
         }
         .page2-left>h4{
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 400;
             margin-top: 10px;
         }
         .page2-left>h5{
-            font-size: 20px;
+            font-size: 17px;
             font-weight: 400;
             margin-top: 10px;
             margin-bottom: 15px;
             color: #0067B8;
         }
         .page2-left>img{
-            height: 76%;
+            height: 75%;
             width: 87%;
             
         }
@@ -217,27 +219,27 @@ html,body{
             position: relative;
         }
         .page2-right-container{
-            height: 57vh;
+            height: 60vh;
             width: 88%;
             border-bottom: 2px solid #dadada;
         }
         .page2-right-container>h4{
-            font-size: 20px;
+            font-size: 18px;
             width: 22vw;
             font-weight: 400;
             margin-top: 10px;
         }
         .page2-right-container>h5{
-            font-size: 20px;
+            font-size: 17px;
             font-weight: 400;
             margin-top: 20px;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             color: #0067B8;
         }
         .page2-right-container>img{
             position: absolute;
             height: 39%;
-            right: 10%;
+            right: 7%;
             top:0.4%
         }
 
@@ -246,22 +248,22 @@ html,body{
             width: 88%;
         }
         .page2-right-container2>h4{
-            font-size: 20px;
+            font-size: 18px;
             width: 22vw;
             font-weight: 400;
             margin-top: 10px;
         }
         .page2-right-container2>h5{
-            font-size: 20px;
+            font-size: 17px;
             font-weight: 400;
-            margin-top: 20px;
+            margin-top: 15px;
             margin-bottom: 25px;
             color: #0067B8;
         }
         .page2-right-container2>img{
             position: absolute;
             height: 39%;
-            right: 10%;
+            right: 7%;
             top:52%
         }
         .page2-right-container2>h1{
@@ -274,7 +276,7 @@ html,body{
         }
         .page3>.gray-box{
             background-color: #F4F3F5;
-            height: 230px;
+            height: 210px;
             width: 80%;
             position: absolute;
             left: 10%;
@@ -289,7 +291,7 @@ html,body{
         }
         .page3>.gray-box>h2{
             position: absolute;
-            font-size: 28px;
+            font-size: 26px;
             background-color: #F4F3F5;
             top:23%;
             left: 14%;
@@ -297,7 +299,7 @@ html,body{
         .gray-box-bottom>h4{
             position: absolute;
             bottom: 25%;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 600;
             color: #0067B8;
             left: 14%;
@@ -319,7 +321,7 @@ html,body{
         }
         .page3-text>h3{
             text-align: center;
-            font-size: 40px;
+            font-size: 35px;
             font-weight: 500;
         }
         .page4{
@@ -356,7 +358,7 @@ html,body{
         .page4-outlook-container:hover,
         .page4-onedrive-container:hover,
         .page4-more-container:hover{
-            height: 90px; 
+            height: 82px; 
             width: 28vw;
             cursor: pointer;
             box-shadow: 0px 4px 9px rgb(214, 209, 209);
@@ -391,7 +393,7 @@ html,body{
         .page4-more-container>h3{
             font-size: 21px;
             font-weight: 600;
-            margin-top: 6px;
+            margin-top: 5px;
         }
 
         .page4-excel-container{
@@ -470,7 +472,7 @@ html,body{
             margin-top: 3px;
         }
         .page5{
-            height: 110vh;
+            height: 115vh;
             width: 100%;
             position: relative;
         }
@@ -486,7 +488,6 @@ html,body{
         .page5-image-container>img{
             height: 75%;
             border-radius: 3px;
-           
         }
         #ist-img{
             margin-left: 70px;
@@ -504,21 +505,21 @@ html,body{
             width: 25%;
             background-color: #D83B01;
             position: absolute;
-            left:6%;
+            left:8%;
             bottom:13%
         }
         .personal-card-container>h2{
             font-size: 25px;
             color: #fff;
             text-align: center;
-            padding:25px 20px;
+            padding:22px 20px;
             background-color: #db440e;
             box-shadow:  0px 4px 10px  #c43603;
             z-index: 10;
         }
         .personal-card-container>button{
             padding:10px 80px;
-            margin-left: 50px;
+            margin-left: 40px;
             margin-top: 30px;
             font-size: 22px;
             white-space: nowrap;
@@ -546,20 +547,20 @@ html,body{
             width: 25%;
             background-color: #0078D4;
             position: absolute;
-            left:37.3%;
+            left:38%;
             bottom:13%
         }
         .work-card-container>h2{
             font-size: 25px;
             color: #fff;
             text-align: center;
-            padding:25px 20px;
+            padding:20px 20px;
             background-color: #0078D4;
             box-shadow:  0px 4px 10px  #106eb6;  
         }
         .work-card-container>.button1{
-            padding:10px 30px;
-            margin-left: 50px;
+            padding:10px 20px;
+            margin-left: 40px;
             margin-top: 30px;
             font-size: 20px;
             white-space: nowrap;
@@ -569,16 +570,16 @@ html,body{
             font-weight: 600;
         }
         .work-card-container>h3{
-            margin-top: 20px;
+            margin-top: 15px;
             color: white;
             background-color: #0078D4;
             text-align: center;
             font-weight: 500;
         }
         .work-card-container>.button2{
-            padding:10px 26px;
-            margin-left: 50px;
-            margin-top: 20px;
+            padding:10px 15px;
+            margin-left: 40px;
+            margin-top: 15px;
             font-size: 20px;
             white-space: nowrap;
             border: none;
@@ -593,7 +594,7 @@ html,body{
             width: 25%;
             background-color: #7719AA;
             position: absolute;
-            left:68.8%;
+            left:69%;
             bottom:13%
         }
         .education-card-container>h2{
@@ -606,7 +607,7 @@ html,body{
             z-index: 10;
         }
         .education-card-container>button{
-            padding:10px 80px;
+            padding:10px 65px;
             margin-left: 50px;
             margin-top: 30px;
             font-size: 22px;
@@ -650,15 +651,15 @@ html,body{
         .page6-left>h1{
             font-weight: 600;
             position: absolute;
-            left:10%;
+            left:8%;
             bottom: 55%;
         }
         .page6-left>h4{
             font-weight: 500;
             position: absolute;
-            left:10%;
+            left:8%;
             bottom: 40%;
-            font-size: 20px;
+            font-size: 18px;
         }
         .page6-left>h4>span{
             color: #0078D4;
@@ -704,7 +705,7 @@ html,body{
         }
         .page8-top>h2{
             text-align: center;
-            font-size: 20px;
+            font-size: 17px;
             margin-top: 20px;
             font-weight: 500;
         }
@@ -726,7 +727,7 @@ html,body{
         }
         .page8-left>h1{
             position: absolute;
-            bottom: 60%;
+            bottom: 64%;
            left: 8%;
            font-size: 28px;
         }
@@ -734,7 +735,7 @@ html,body{
             position: absolute;
             bottom: 40%;
            left: 8%;
-           font-size: 20px;
+           font-size: 18px;
            font-weight: 500;
         }
         .page8-left>h4>span{
@@ -759,7 +760,7 @@ html,body{
         }
         .page9-top>h1{
             text-align: center;
-            font-size: 36px;
+            font-size: 33px;
         }
         .page9-bottom{
             display: flex;
@@ -777,18 +778,18 @@ html,body{
             position: relative;
         }
         .simens-container{
-            height: 56%;
+            height: 58%;
             width: 43%;
             opacity: 0;
             position: absolute;
             left:16%;
-            top:14%;
+            top:12%;
             z-index: 3;
         }
         .toyota-container,
         .academy-container,
         .zurich-container{
-            height: 54%;
+            height: 59%;
             width: 43%;
             opacity: 0;
             position: absolute;
@@ -922,22 +923,22 @@ html,body{
             font-weight: 500;
         }
         .page11-icons-container>.img1{
-            height: 40px;
+            height: 35px;
             position: absolute;
-           left: 16%;
-           bottom: 8%;
+           left: 18%;
+           bottom: 3%;
         }
         .page11-icons-container>.img2{
-            height: 40px;
+            height: 35px;
             position: absolute;
-           left: 20%;
-           bottom: 8%;
+           left: 22%;
+           bottom: 3%;
         }
         .page11-icons-container>.img3{
-            height: 40px;
+            height: 35px;
             position: absolute;
-           left: 24%;
-           bottom: 8%;
+           left: 26%;
+           bottom: 3%;
         }
         .page12{
             height: 53vh;
