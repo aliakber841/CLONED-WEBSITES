@@ -8,7 +8,7 @@ https://two-good-co-project.netlify.app/
 https://crio-website-cloned.netlify.app/
 
 (4) MICROSOFT 365
-https://microsoft365-cloned.netlify.app/
+https://aliakber841.github.io/CLONED-WEBSITES/MICROSOFT%20365/microsoft.html
 
 (5) RAYBAN LANDING PAGE
 https://aliakber841.github.io/CLONED-WEBSITES/RAYBAN%20LANDING%20PAGE/index.html
