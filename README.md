@@ -1,5 +1,5 @@
-(1) COCA COLA WEBSITE 
-https://coca-cola-project.netlify.app/
+(1) CYNTHIA UGWU
+https://aliakber841.github.io/CLONED-WEBSITES/CYNTHIA%20UGWU%20WEBSITE/cynthia.html
 
 (2) TWO GOOD CO WEBSITE 
 https://two-good-co-project.netlify.app/
@@ -13,8 +13,8 @@ https://aliakber841.github.io/CLONED-WEBSITES/MICROSOFT%20365/microsoft.html
 (5) RAYBAN LANDING PAGE
 https://aliakber841.github.io/CLONED-WEBSITES/RAYBAN%20LANDING%20PAGE/index.html
 
-(6) CYNTHIA UGWU
-https://aliakber841.github.io/CLONED-WEBSITES/CYNTHIA%20UGWU%20WEBSITE/cynthia.html
+(6) COCA COLA WEBSITE 
+https://coca-cola-project.netlify.app/
 
 (7) APPLE VISION
 https://aliakber841.github.io/CLONED-WEBSITES/APPLE%20VISION%20WEBSITE/applevision.html
