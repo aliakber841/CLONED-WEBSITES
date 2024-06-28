@@ -1,3 +1,6 @@
+PROTOFOLIO LINK
+https://aliakber841.netlify.app/
+
 (1) CYNTHIA UGWU
 https://aliakber841.github.io/CLONED-WEBSITES/CYNTHIA%20UGWU%20WEBSITE/cynthia.html
 
