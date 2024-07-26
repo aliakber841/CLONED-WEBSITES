@@ -121,8 +121,9 @@ module.exports = {
         'ml16': "18.2rem",
         'ml19':'31rem',
         'ml20':'9rem',
-        'ml21':"15rem"
-
+        'ml21':"15rem",
+        'ml22':'25.5rem',
+        'ml23':'23.5rem'
       },
       lineHeight:{
         'l1':'3.1rem',
