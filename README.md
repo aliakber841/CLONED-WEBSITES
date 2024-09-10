@@ -1,4 +1,4 @@
-PROTOFOLIO LINK
+PORTFOLIO LINK
 https://aliakber841.netlify.app/
 
 (1) CYNTHIA UGWU
